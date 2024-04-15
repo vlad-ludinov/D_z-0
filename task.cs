@@ -18,3 +18,10 @@ string[] FilterArray(string[] array) {
     }
     return result;
 }
+
+void PrintArray(string[] array) {
+    System.Console.Write($"[\"{string.Join("\", \"", array)}\"]");
+    System.Console.WriteLine();
+
+}
+
